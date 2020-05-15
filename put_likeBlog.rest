@@ -1,0 +1,16 @@
+PUT http://localhost:3001/api/blogs/5ebe422d5daa3a356f5c1b56
+Content-Type: application/json
+
+{
+  "comments": [{
+      "content": "hyvin sanottu commentti",
+      "blog": "5ebe422d5daa3a356f5c1b56",
+      "_id": "5ebe4b1c9e2f773efafec565"
+    }],
+  "title": "tällää",
+  "author": "Ei kommenttia",
+  "url": "ww.n.fi",
+  "likes": 22,
+  "user": "5eb3bd0b524dc76cab131784",
+  "id": "5ebe422d5daa3a356f5c1b56"
+}
